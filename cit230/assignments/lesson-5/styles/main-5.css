@@ -27,8 +27,8 @@ header h1 {
     color: #6F8C9B;
 }
 header img {float:left;
-    width:72px;
-    height:72px;
+    width:72;
+    height:72;
 }
 header .subheading {
     color: #B2C1C8;
