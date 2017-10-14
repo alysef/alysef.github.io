@@ -3,7 +3,7 @@
 
   nav button { display:none; }  /* hamburger button does not need to be shown */
 
-  section.forecast { display:contents }  /* show the 10-day forecast with the medium view and up */
+  section.forecast { display:inline; }  /* show the 10-day forecast with the medium view and up */
 
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
@@ -11,8 +11,9 @@
 
     nav ul li.active a {display: none; }
 
-    nav {display:contents; }
+    nav {}
   nav ul {
+    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,11 +21,12 @@
     background-color: #6F8C9B;
 }
 
-nav li {
+nav ul li {
+    display: inline;
     float: left;
 }
 
-nav li a {
+nav ul li a {
     font-family: "Helvetica Neue";
     font-weight: lighter;
     font-size:16px;
@@ -35,10 +37,10 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
+nav ul li a:hover {
     background-color: #B2C1C8;
 }
-    footer {}
+    footer {padding-top: 90px;}
 footer aside {text-align: center;}
 footer>p {text-align: left;}
 }

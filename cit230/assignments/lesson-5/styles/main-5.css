@@ -40,7 +40,7 @@ header .subheading {
 
 nav {}
 nav button { float: right; }
-nav ul {display:none;}
+nav ul {display: none;}
 nav ul li {}
 nav ul li a {}
 nav ul li.active a {}
@@ -77,15 +77,18 @@ article h3{color: #E2C7B6;
 article {
     font-family: "Helvetica Neue";
     font-weight: normal;
-    font-size: 14pt;}
+    font-size: 12pt;}
 
 article p.town-article img {
-    float: right;
-    width: ???; /* fill the page in the small/phone view */
-    margin: ???;
+    width: 96%;
+    margin: 0 0 .2rem 2%;
 }
 
-footer {}
+footer {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 10pt;
+}
 footer aside {text-align: center; }
 footer>p {
     padding: 15px;
