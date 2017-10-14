@@ -1,0 +1,90 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+html{
+    background-color: #FCFDF2;
+}
+body {
+  font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer {
+    max-width: 900px;
+    margin:auto;
+}
+
+header {}
+header h1 {
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+    color: #6F8C9B;
+}
+header img {}
+header .subheading {
+    color: #B2C1C8;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 14pt;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav {}
+nav button { float: right; }
+nav ul {}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+main {background-color: #FCFDF2; }
+main h2 {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    color: #CD9976; }
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { width: 100%; }
+
+section {
+    font-family: "Helvetica Neue";
+    font-weight: medium;
+    font-size: 12pt;
+}
+
+section.forecast { display:none; }
+
+section h3{
+    color: #E2C7B6;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 20pt;
+}
+
+article h3{color: #E2C7B6;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 20pt;}
+
+article {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 14pt;}
+
+article p.town-article img {
+    float: right;
+    width: ???; /* fill the page in the small/phone view */
+    margin: ???;
+}
+
+footer {}
+footer aside {text-align: center; }
+footer>p {
+    padding: 15px;
+    background-color: #F6FBCD;
+    text-align: center; } /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
