@@ -1,4 +1,7 @@
-table, caption, th, td {
+table,
+caption,
+th,
+td {
     border: 1px solid lightgrey;
     border-collapse: collapse;
 }
@@ -28,25 +31,27 @@ caption {
     font-size: 18pt;
     color: black;
     background-color: #7fb9c2;
-
 }
+
 tfoot {
     font-family: 'Ubuntu-light', sans-serif;
     font-size: 10pt;
     background-color: #7fb9c2;
 }
 
-tbody tr:nth-child(even) {background-color: #e7ffed}
+tbody tr:nth-child(even) {
+    background-color: #e7ffed
+}
 
-tbody tr:nth-child(odd) {background-color: #e7f0ed}
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed
+}
 
-tbody tr:nth-child(6) td:nth-child(1){
+tbody tr:nth-child(6) td:nth-child(1) {
     font-family: 'Ubuntu-lightitalic', sans-serif;
 }
 
-tbody tr:nth-child(5) td:nth-child(3){
-
+tbody tr:nth-child(5) td:nth-child(3) {
     background-color: #628ca6;
     color: white;
 }
-
