@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sunnyside Weather</title>
+    <meta name="author" content="Alyse Finlayson">
+    <meta name="description" content="Local Weather Page">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main-5.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium-5.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large-5.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+</head>
+
+<body>
+
+
+    <header>
+        <img src="images/sunnside-logo.png" alt="The site logo" srcset="images/logo1.png 1x, images/logo2.png 2x, images/logo3.png 3x">
+        <div class="title">
+            <h1>Sunnyside</h1>
+            <div class="subheading">The local weather spot</div>
+        </div>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav>
+        <ul class="navigation">
+            <li><a href="#home" title="Home">Home</a></li>
+            <li><a href="#franklin" title="Franklin">Franklin</a></li>
+            <li><a href="#greenville" title="Greenville">Greenville</a></li>
+            <li><a href="#springfield" title="Springfield">Springfield</a></li>
+            <li><a href="#stormcenter" title="Storm Center">Storm Center</a></li>
+            <li><a href="#gallery" title="Gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="responsive">
+        <main class="grid">
+            <div>
+                <img src="images/weather1.jpg" alt="weather" class="galleryimages">
+                <p class="caption">Trees from a upward view</p>
+            </div>
+            <div>
+                <img src="images/weather2.jpg" alt="weather" class="galleryimages">
+                <p class="caption">Cars in traffic in the rain</p>
+            </div>
+            <div>
+                <img src="images/weather3.jpg" alt="weather" class="galleryimages">
+                <p class="caption">Blossoms in the spring</p>
+            </div>
+            <div>
+                <img src="images/weather4.jpg" alt="weather" class="galleryimages">
+                <p class="caption">Path of trees in fall</p>
+            </div>
+            <div>
+                <img src="images/weather5.jpg" alt="weather" class="galleryimages">
+                <p class="caption">Rainbow in the back of houses</p>
+            </div>
+            <div>
+                <img src="images/weather6.jpg" alt="weather" class="galleryimages">
+                <p class="caption">Fence and trees in a storm</p>
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <aside>
+            <div>123 Main • Franklin, MU 83454</div>
+            <div>(999)999-9999 • contact@theurl.com</div>
+        </aside>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate"></span></p>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+
+</html>
