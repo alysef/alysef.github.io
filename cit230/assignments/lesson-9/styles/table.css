@@ -1,7 +1,4 @@
-table,
-caption,
-th,
-td {
+table caption th td {
     border: 1px solid lightgrey;
     border-collapse: collapse;
 }
