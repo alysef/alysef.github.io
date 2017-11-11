@@ -55,15 +55,23 @@ main figure img { width: 100%; }
 .container {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 1rem;
+  padding: 10px;
 }
 
 .responsive-image {
   max-width: 100%;
+    padding: 10px;
 }
 
 .cell img {
   display: block;
+}
+
+.caption{
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 14pt;
+    text-align: left;
 }
 
 footer {
