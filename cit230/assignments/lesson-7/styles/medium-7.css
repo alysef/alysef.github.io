@@ -3,18 +3,6 @@
 
   nav button { display:none; }  /* hamburger button does not need to be shown */
 
-  section.forecast {
-      padding-top: 50px;
-      display:block;}  /* show the 10-day forecast with the medium view and up */
-
-    article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
-
-  main figure.flower img {
-      float: left;
-      padding-right: 100px;
-      width: 60%;
-    }
-
     nav ul li.active a {display: none; }
 
     nav {}
@@ -46,7 +34,18 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #B2C1C8;
 }
-    footer {padding-top: 90px;}
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+footer {padding-top: 90px;}
 footer aside {text-align: center;}
 footer>p {text-align: left;}
 }
