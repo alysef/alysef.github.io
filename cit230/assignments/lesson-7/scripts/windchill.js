@@ -1,13 +1,11 @@
 //f = 35.74 + 0.6215 * t - 35.75 * s^0.16 + 0.4275 * t * s^0.16
 
-var t = 50;
+var t = 78;
 
 var s = 5;
 
-var s2 = Math.pow(s, 0.16);
+var wind = 35.74 + 0.6215 * t - 35.75 * (Math.pow(s, 0.16)) + 0.4275 * t * (Math.pow(s, 0.16));
 
-var t2 = 0.6215 * t;
+var rounded = Math.round(wind * 10) /10;
 
-var f = 35.74 + t2 - (35.75 * s2) + (0.4215 * t * s2);
-
-document.getElementById("demo").innerHTML = f;
+document.getElementById("windchill").innerHTML = wind;
