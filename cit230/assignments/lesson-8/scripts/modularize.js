@@ -1,5 +1,6 @@
 w3.includeHTML();
 
+function myFunction() {
 var d = new Date();
 var weekday = new Array(7);
 weekday[0] = "Sunday";
@@ -29,3 +30,4 @@ var n = weekday[d.getDay()] + ", " + d.getDate() + " " + month[d.getMonth()] + "
 document.getElementById("currentdate").innerHTML = n;
 }
 
+myFunction();
