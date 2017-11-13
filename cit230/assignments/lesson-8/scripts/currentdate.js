@@ -1,5 +1,3 @@
-w3.includeHTML();
-
 function myFunction() {
 var d = new Date();
 var weekday = new Array(7);
