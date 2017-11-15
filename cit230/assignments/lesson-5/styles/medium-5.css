@@ -15,7 +15,7 @@
       width: 60%;
     }
 
-    nav ul li.active a {display: none; }
+    nav ul li.active a { }
 
     nav {}
   nav ul {
