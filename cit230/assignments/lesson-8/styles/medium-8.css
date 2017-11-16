@@ -46,6 +46,9 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #B2C1C8;
 }
+
+main figure img { width: 60%; }
+
     footer {padding-top: 90px;}
 footer aside {text-align: center;}
 footer>p {text-align: left;}
