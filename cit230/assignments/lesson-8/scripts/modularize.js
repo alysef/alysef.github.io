@@ -1,3 +1,5 @@
-w3.includeHTML(Function(){
+w3.includeHTML(function(){
+
                myFunction();
-               });
+
+});
