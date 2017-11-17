@@ -17,8 +17,8 @@ header, nav, main, footer {
 header {}
 header h1 {
     text-align: center;
-    font-family: "Helvetica Neue";
-    font-weight: lighter;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-weight: normal;
     font-size: 36px;
     position: relative;
     text-align: left;
@@ -31,7 +31,7 @@ header figure.logo {float:left;
 }
 header .subheading {
     color: #B2C1C8;
-    font-family: "Helvetica Neue";
+    font-family: 'Open Sans light', sans-serif;
     font-weight: lighter;
     font-size: 14pt;
     text-align: left;
@@ -46,11 +46,41 @@ nav ul li a:hover {}
 
 main {background-color: #FCFDF2; }
 main h2 {
-    font-family: "Helvetica Neue";
+    font-family: 'Open Sans Bold', sans-serif;
     font-weight: bold;
     color: #CD9976; }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { width: 50%; }
+main figure img { width: 100%; }
+
+section {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: medium;
+    font-size: 12pt;
+}
+
+section.forecast { display:none; }
+
+section h3{
+    color: #E2C7B6;
+    font-family: 'Open Sans Light', sans-serif;
+    font-weight: lighter;
+    font-size: 20pt;
+}
+
+article h3{color: #E2C7B6;
+    font-family: 'Open Sans Light', sans-serif;
+    font-weight: lighter;
+    font-size: 20pt;}
+
+article {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;}
+
+article p.town-article img {
+    width: 96%;
+    margin: 0 0 .2rem 2%;
+}
 
 .container {
   margin: 0 auto;
@@ -68,14 +98,14 @@ main figure img { width: 50%; }
 }
 
 .caption{
-    font-family: "Helvetica Neue";
+    font-family: 'Open Sans Light', sans-serif;
     font-weight: lighter;
     font-size: 14pt;
     text-align: left;
 }
 
 footer {
-    font-family: "Helvetica Neue";
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 10pt;
 }
