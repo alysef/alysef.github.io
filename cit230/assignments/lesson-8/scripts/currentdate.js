@@ -28,4 +28,3 @@ var n = weekday[d.getDay()] + ", " + d.getDate() + " " + month[d.getMonth()] + "
 document.getElementById("currentdate").innerHTML = n;
 }
 
-myFunction();
