@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-us">
+
+<head w3-include-html="modules/head.html"></head>
+
+<body>
+
+    <header w3-include-html="modules/header.html">
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav w3-include-html="modules/nav.html">
+    </nav>
+
+    <main>
+        <h2>The City of Greenville</h2>
+        <figure class="flower">
+            <img src="images/hike.jpg" alt="Hiker">
+        </figure>
+        <section>
+            <h3>Weather Summary</h3>
+            <div class="highlow">
+                <p>High: 85°</p>
+                <p>Low: 60°</p>
+            </div>
+            <div class="current">
+                Sunny
+            </div>
+            <div class="conditions">
+                <p>Precipitation: 10%</p>
+                <p>Wind Speed: 10 mpg SW</p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <figure class="franklin">
+                <img src="images/franklin-original.jpg" sizes="50vw" srcset="images/franklin-original-200.jpg 200w, images/franklin-original-500.jpg 500w, images/franklin-original-800.jpg 800w, immages/franklin-original-1100.jpg 1100w" alt="Sunny Weather">
+            </figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>84&deg;F</td>
+                        <td>84&deg;F</td>
+                        <td>80&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>70&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>85&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Franklin Breaks Record</h3>
+            <p class="town-article">
+                    <img src="images/fog.jpg" alt="Mountains">
+                After the rain, as people and animals gently step back out into the world, is an amazing time for quiet beauty. There are certainly exceptions in this story, but the overwhelming nature of these photos changed the way I thought about this theme. The winds die down, the song of raindrops fades away, and we are left in a world that seems calmer than before.
+        </article>
+
+    </main>
+
+    <footer w3-include-html="modules/footer.html">
+    </footer>
+
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/modularize.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <!--<script src="scripts/currentdate.js"></script>-->
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>
