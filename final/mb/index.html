@@ -1,61 +1,36 @@
 
 <!doctype html>
 <html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Mountain Spoke</title>
-  <meta name="author" content="Alyse Finlayson">
-  <meta name="description" content="Local Weather Page">
-  <!-- external style references in the proper cascading order -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!-- Google API font reference -->
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet"><!-- Google API font reference -->
-  <link href="cit230/styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
-  <link href="styles/main-5.css" rel="stylesheet">    <!-- default styles - small/phone views -->
-  <link href="styles/medium-5.css" rel="stylesheet">  <!-- medium/tablet views -->
-  <link href="styles/large-5.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+<head w3-include-html="modules/head.html">
 </head>
+
 <body>
 
-  <header>
-    <img src="images/mountain-spoke-logo.png" alt="The site logo" width="72" height="72">
+    <header w3-include-html="modules/header.html">
+    </header>
 
-  </header>
+    <!-- site navigation use placeholder references -->
+    <nav w3-include-html="modules/nav.html">
+    </nav>
 
-  <!-- site navigation use placeholder references -->
-  <nav>
-    <button onclick="toggleNavMenu()">&#9776;</button>
-    <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Tours</a></li>
-        <li class="active"><a href="#">Sales</a></li>
-        <li><a href="#">Home</a></li>
-    </ul>
-  </nav>
+    <main>
 
-  <main>
+        <figure>
+            <img src="images/hero-image.jpg" alt="Flowers">
+        </figure>
 
-    <figure>
-       <img src="images/hero-image.jpg"  alt="Flowers">
-    </figure>
-
-    <div class="shop">
-     <a href="sales.html">SHOP NOW &rarr;</a>
-      </div>
+        <div class="shop">
+            <a href="shop.html">SHOP NOW &rarr;</a>
+        </div>
     </main>
 
-  <footer>
-    <aside>
-        <div>123 Main • Boulder, CO 83454</div>
-        <div>(999)999-9999 • contact@theurl.com</div>
-    </aside>
-    <p class="footer-bar">&copy;2017 All Rights Reserved | The Mountain Spoke | <span id="currentdate">Current Date Placeholder</span></p>
-  </footer>
-  <script src="scripts/hamburger.js"></script>
-  <script src="scripts/currentdate.js"></script>
+    <footer w3-include-html="modules/footer.html">
+    </footer>
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/modularize.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <!--<script src="scripts/currentdate.js"></script>-->
+    <script src="scripts/windchill.js"></script>
 
 </body>
 </html>

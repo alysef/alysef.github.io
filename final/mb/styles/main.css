@@ -1,0 +1,128 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+html {
+    background-color: white;
+    margin: auto;
+}
+
+body {
+    font-size: 16px;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header img {
+    width: 200px;
+    height: 100px;
+}
+
+header,
+nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {}
+
+nav button {
+    float: right;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul li {}
+
+nav ul li a {}
+
+nav ul li.active a {}
+
+nav ul li a:hover {}
+
+main {
+    background-color: white;
+}
+
+main figure img {
+    width: 100%;
+}
+
+main .shop {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 150px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+main .shop:hover {
+    background-color: grey;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 2000px;
+    padding: 10px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.cell img {
+    display: block;
+}
+
+.caption {
+    font-family: 'Open Sans Light', sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    text-align: left;
+}
+
+footer {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+    padding-top: 20px;
+}
+
+footer aside {
+    text-align: center;
+}
+
+footer p {
+    padding: 15px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+}
+
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+
+/* Other Class Selectors */
