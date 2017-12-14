@@ -35,7 +35,7 @@ main h2 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
     color: #CD9976; }
-main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure {width:100%; }
 main figure img { width: 100%; }
 
 section {
@@ -71,9 +71,14 @@ footer {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;
     font-size: 10pt;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
 footer aside {text-align: center; }
-footer>p {
+footer p {
     padding: 15px;
     background-color: #F6FBCD;
     text-align: center; } /* This structure refers to p elements that are direct children of the footer element */

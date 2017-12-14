@@ -10,9 +10,9 @@
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
   main figure img {
-      float: left;
-      padding-right: 20px;
-      width: 60%;
+      display: block;
+        margin: auto;
+      width: 100%;
     }
 
     nav ul li.active a { }
@@ -46,7 +46,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #B2C1C8;
 }
-    footer {padding-top: 90px;}
 footer aside {text-align: center;}
-footer>p {text-align: left;}
+footer p {text-align: left;}
 }
