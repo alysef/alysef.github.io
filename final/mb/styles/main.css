@@ -81,28 +81,6 @@ a {
     text-decoration: none;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 2000px;
-    padding: 10px;
-}
-
-.responsive-image {
-    max-width: 100%;
-    padding: 10px;
-}
-
-.cell img {
-    display: block;
-}
-
-.caption {
-    font-family: 'Open Sans Light', sans-serif;
-    font-weight: lighter;
-    font-size: 14pt;
-    text-align: left;
-}
-
 footer {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;

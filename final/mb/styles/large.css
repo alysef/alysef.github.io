@@ -11,10 +11,9 @@
     article p.town-article img {
         width: 70%;
     }
-    .cell {
-        width: calc(100% / 3);
-    }
     footer {
         padding-top: 70px;
     }
 }
+
+
