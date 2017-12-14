@@ -24,12 +24,12 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #6F8C9B;
+
 }
 
 nav ul li {
     display: inline;
-    float: left;
+    float: right;
 }
 
 nav ul li a {
@@ -37,7 +37,7 @@ nav ul li a {
     font-style: normal;
     font-size:16px;
     display: block;
-    color: white;
+    color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
