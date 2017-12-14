@@ -17,7 +17,9 @@
 
     nav ul li.active a { }
 
-    nav {}
+    nav {
+        padding-top: 26px;
+    }
   nav ul {
     display: block;
     list-style-type: none;
