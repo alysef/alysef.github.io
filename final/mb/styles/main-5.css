@@ -31,12 +31,14 @@ nav ul li.active a {}
 nav ul li a:hover {}
 
 main {background-color: #FCFDF2; }
-main h2 {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: bold;
-    color: #CD9976; }
-main figure {width:100%; }
 main figure img { width: 100%; }
+
+main .shop{
+      text-align: center;
+      margin:0 auto;
+    padding-top: -20px;
+
+}
 
 section {
     font-family: 'Barlow Semi Condensed', sans-serif;
