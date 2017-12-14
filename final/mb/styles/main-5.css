@@ -2,17 +2,16 @@
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 html{
-    background-color: #FCFDF2;
+    background-color: white;
+
+    margin:auto;
 }
 body {
   font-size: 16px;
   /* Declare the base font-family - from google font api or other */
 }
 
-header, nav, main, footer {
-    max-width: 900px;
-    margin:auto;
-}
+
 
 
 header img {
@@ -33,58 +32,41 @@ nav ul li a {}
 nav ul li.active a {}
 nav ul li a:hover {}
 
-main {background-color: #FCFDF2; }
+main {background-color: white; }
 main figure img { width: 100%; }
 
 main .shop{
       text-align: center;
       margin:0 auto;
-
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 150px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
-section {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 12pt;
-}
-
-section.forecast { display:none; }
-
-section h3{
-    color: #E2C7B6;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: lighter;
-    font-size: 20pt;
-}
-
-article h3{color: #E2C7B6;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: lighter;
-    font-size: 20pt;}
-
-article {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: normal;
-    font-size: 12pt;}
-
-article p.town-article img {
-    width: 96%;
-    margin: 0 0 .2rem 2%;
+main .shop:hover {
+    background-color: grey;
+    color: white;
 }
 
 footer {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;
     font-size: 10pt;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
+
 }
 footer aside {text-align: center; }
 footer p {
     padding: 15px;
-    background-color: #F6FBCD;
-    text-align: center; } /* This structure refers to p elements that are direct children of the footer element */
+    background-color: #000;
+    text-align: center;
+    color: white;
+} /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
