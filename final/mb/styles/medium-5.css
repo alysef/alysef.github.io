@@ -10,8 +10,7 @@
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
   main figure img {
-      display: block;
-        margin: auto;
+
       width: 100%;
     }
 
@@ -19,7 +18,7 @@
 
     nav {
         padding-top: 26px;
-        padding-left: 30px;
+        padding-left: 50px;
     }
   nav ul {
     display: block;
