@@ -33,8 +33,8 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: "Helvetica Neue";
-    font-weight: lighter;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-style: normal;
     font-size:16px;
     display: block;
     color: white;

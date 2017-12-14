@@ -14,33 +14,16 @@ header, nav, main, footer {
     margin:auto;
 }
 
-header {}
-header h1 {
-    text-align: center;
-    font-family: 'Open Sans Regular', sans-serif;
-    font-weight: normal;
-    font-size: 36px;
-    position: relative;
-    text-align: left;
-    top: 18px;
-    left: 10px;
-    color: #6F8C9B;
-}
-header img {float:left;
-    width:72;
-    height:72;
-}
-header .subheading {
-    color: #B2C1C8;
-    font-family: 'Open Sans Light', sans-serif;
-    font-weight: lighter;
-    font-size: 14pt;
-    text-align: left;
+
+header img {
+    float:top;
+    width: 200px;
+    height: 100px;
     padding-bottom: 10px;
 }
 
 nav {}
-nav button { float: right; }
+nav button { float: right;}
 nav ul {display: none;}
 nav ul li {}
 nav ul li a {}
@@ -49,14 +32,14 @@ nav ul li a:hover {}
 
 main {background-color: #FCFDF2; }
 main h2 {
-    font-family: 'Open Sans Bold', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
     color: #CD9976; }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
 section {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 12pt;
 }
 
@@ -64,18 +47,18 @@ section.forecast { display:none; }
 
 section h3{
     color: #E2C7B6;
-    font-family: 'Open Sans Light', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: lighter;
     font-size: 20pt;
 }
 
 article h3{color: #E2C7B6;
-    font-family: 'Open Sans Light', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: lighter;
     font-size: 20pt;}
 
 article {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;
     font-size: 12pt;}
 
@@ -85,7 +68,7 @@ article p.town-article img {
 }
 
 footer {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;
     font-size: 10pt;
 }
