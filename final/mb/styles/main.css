@@ -156,7 +156,23 @@ footer p {
 }
 
 
-/* This structure refers to p elements that are direct children of the footer element */
+/* form */
 
+fieldset{
+    background-color: grey;
+    border: #000 solid 2px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
 
-/* Other Class Selectors */
+}
+
+legend{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color:white;
+    padding: .5em;
+    border: #000 solid 2px;
+    background-color: #999;
+}
