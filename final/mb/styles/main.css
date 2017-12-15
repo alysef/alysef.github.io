@@ -160,7 +160,9 @@ footer p {
     color: white;
 }
 
-
+footer p a{
+    color: white;
+}
 /* form */
 
 fieldset {
