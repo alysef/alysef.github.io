@@ -93,17 +93,18 @@ section p{
     font-weight: lighter;
 }
 
-section .details{
+section .details, .dets{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 14pt;
 }
 
 section .specs,.details,.conditions{
     text-align: right;
 }
 
-section trail{
-   float: right;
+section .trail{
+    margin: 0 2% .50rem 0;
 }
 
 h2{

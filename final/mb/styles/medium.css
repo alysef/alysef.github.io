@@ -46,8 +46,13 @@
     nav ul li a:hover {
         color: grey;
     }
+    section .trail{
+        float: right;
+   margin: 0 2% .50rem 2%;
+}
     footer aside {
         text-align: center;
+        padding-top: 150px;
     }
     footer p {
         text-align: left;
