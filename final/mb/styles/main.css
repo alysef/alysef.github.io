@@ -76,7 +76,7 @@ main .shop:hover {
     color: white;
 }
 
-main h3{
+main h3 {
     color: #000;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;
@@ -88,7 +88,7 @@ a {
     text-decoration: none;
 }
 
-section h3{
+section h3 {
     color: #000;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;
@@ -96,43 +96,48 @@ section h3{
     text-align: center;
 }
 
-section p{
+section p {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: lighter;
 }
 
-section .details, .dets{
+section .details,
+.dets {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
     font-size: 14pt;
 }
 
-section .specs,.details,.conditions{
+section .specs,
+.details,
+.conditions {
     text-align: right;
 }
 
-section .trail{
+section .trail {
     margin: 0 2% .50rem 0;
 }
 
-section h2{
+section h2 {
     color: #000;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
     font-size: 20pt;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
 }
 
-table th{
+table th {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
 
-table td{
+table td {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: lighter;
 }
@@ -158,20 +163,19 @@ footer p {
 
 /* form */
 
-fieldset{
+fieldset {
     background-color: grey;
     border: #000 solid 2px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: lighter;
     font-size: 12px;
-
 }
 
-legend{
+legend {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: normal;
     font-size: 18px;
-    color:white;
+    color: white;
     padding: .5em;
     border: #000 solid 2px;
     background-color: #999;

@@ -3,7 +3,6 @@
     nav button {
         display: none;
     }
-
     /* responsive images */
     main figure img {
         width: 100%;
@@ -37,10 +36,10 @@
     nav ul li a:hover {
         color: grey;
     }
-    section .trail{
+    section .trail {
         float: right;
-   margin: 0 2% .50rem 2%;
-}
+        margin: 0 2% .50rem 2%;
+    }
     footer aside {
         text-align: center;
         padding-top: 170px;
