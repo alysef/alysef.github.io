@@ -1,16 +1,6 @@
 @media only screen and (min-width: 64em) {
     /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
-    section {
-        display: block;
-        padding-top: 300px;
-    }
-    section.forecast {
-        display: block;
-        padding-top: 0px;
-    }
-    article p.town-article img {
-        width: 70%;
-    }
+
     footer aside{
         padding-top: 210px;
     }
