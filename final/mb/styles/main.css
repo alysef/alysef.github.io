@@ -98,12 +98,12 @@ section .details{
     font-weight: normal;
 }
 
-section .back{
-    float: left;
+section .specs,.details,.conditions{
+    text-align: right;
 }
 
-section .trail{
-    float: right;
+section trail{
+   float: right;
 }
 
 h2{
